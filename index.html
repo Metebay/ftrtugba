@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizyoterapist Biyografi</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            color: #333;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid #ffffff;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-text h1 {
+            font-size: 2.5rem;
+            color: #333;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .profile-text p {
+            font-size: 1.2rem;
+            color: #666;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            gap: 20px;
+        }
+
+        .service-card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .service-card h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+        }
+
+        .links a {
+            text-decoration: none;
+            padding: 15px 25px;
+            background: #6c63ff;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .links a:hover {
+            transform: translateY(-5px);
+            background: #5848c2;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 1rem;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profil Resmi">
+            <div class="profile-text">
+                <h1>Ftr. Tuğba KILINÇOĞLU</h1>
+                <p>FİZYOTERAPİST</p>
+                <p>"
+Merhaba, ben Fizyoterapist Tuğba KILINÇOĞLU. 2021 yılında İnönü Üniversitesi Sağlık Bilimleri Fakültesi Fizyoterapi ve Rehabilitasyon Bölümü'nden mezun oldum. Lisans eğitimim süresince örgün öğretimde aldığım detaylı ve uygulamalı dersler sayesinde mesleki bilgi ve becerilerimi geliştirdim.
+
+Eğitim sürecimde fizyoterapi ve rehabilitasyon alanında hem teorik hem de pratik çalışmalarla donanım kazandım. Mezuniyetim sonrasında katıldığım çeşitli eğitimler, seminerler ve sertifika programlarıyla mesleki gelişimime katkı sağlamaya devam ediyorum. İnsan sağlığına odaklı bir meslek olan fizyoterapi alanında, bireylerin yaşam kalitesini artırmayı amaçlayan çalışmalar yürütmek benim için bir tutku.
+
+Her zaman öğrenmeye açık bir yapıya sahibim ve mesleğimde yenilikleri takip ederek en iyi hizmeti sunmayı hedefliyorum."</p>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="service-card">
+                <h2><i class="fas fa-walking"></i> Manuel Terapi</h2>
+                <p>Ağrılarınızı hafifletmek için özel terapi teknikleri.</p>
+            </div>
+            <div class="service-card">
+                <h2><i class="fas fa-dumbbell"></i> Egzersiz Programları</h2>
+                <p>Kişisel ihtiyaçlarınıza uygun rehabilitasyon planları.</p>
+            </div>
+            <div class="service-card">
+                <h2><i class="fas fa-heartbeat"></i> Ağrı Yönetimi</h2>
+                <p>Kronik ve akut ağrılara etkili çözümler.</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="https://instagram.com/kilincoglutugba"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="hizmetler.html"><i class="fas fa-certificate"></i>Sertifikalar ve Eğitimler</a>
+        </div>
+
+        <footer>
+    <p>© 2024 Tüm Hakları Saklıdır.</p>
+      <p> <a href="https://bayindirmedya.online" style="color: #6c63ff; font-weight: bold; text-decoration: none;">BAYINDIR MEDYA</a></p>
+       </footer>
+    </div>
+</body>
+</html>
